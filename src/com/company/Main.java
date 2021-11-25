@@ -1,18 +1,13 @@
 package com.company;
 
 public class Main {
-    public static void main(String[] args) {
-        checkNumber(0);
-    }
-
-    public static void checkNumber(int number) {
-        if (number > 0) {
-            System.out.println("positive");
-        }else if (number<0){
-            System.out.println("negative");
+        public static boolean hasTeen(int age1,int age2,int age3);
+ if hasTeen(age1>= 13 && age1<=19)||(age2>=13 && age2<=19)||(age3>=13 && age3<=19){
+            return True;
         }else{
-            System.out.println("zero");
+            return False;
         }
+
+
     }
-}
 // check something
